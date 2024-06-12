@@ -3,7 +3,7 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v4.6.0
     hooks:
       - id: check-json
       - id: check-merge-conflict
@@ -13,18 +13,18 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/compilerla/conventional-pre-commit
-    rev: v3.1.0
+    rev: v3.2.0
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
         args: []
 
   - repo: https://github.com/golangci/golangci-lint
-    rev: v1.56.2
+    rev: v1.59.1
     hooks:
       - id: golangci-lint
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.39.0
+    rev: v0.41.0
     hooks:
       - id: markdownlint
