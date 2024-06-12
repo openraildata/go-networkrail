@@ -1,6 +1,6 @@
 module github.com/openraildata/go-networkrail
 
-go 1.22.2
+go 1.22.4
 
 require (
 	github.com/alecthomas/assert/v2 v2.8.1
